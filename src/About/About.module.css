@@ -1,0 +1,31 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.title {
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.profileImage {
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    margin-top: 30px;
+    border: 1px solid var(--color-white);
+}
+
+.name {
+    font-size: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.description {
+    width: 30%;
+    margin: 0 auto;
+}

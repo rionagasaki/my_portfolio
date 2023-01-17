@@ -1,0 +1,25 @@
+.title {
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 30px; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+.glass {
+    width: 50%;
+    height: 400px;
+    background: var(--color-white);
+    opacity: 0.3;
+    border-radius: 15%;
+    border: 5px solid var(--color-primary);
+    backdrop-filter: blur(40px);
+    margin: 0 auto;
+    
+}
+
+.img {
+    width:50px;
+    border-radius: 10%;
+}
+
