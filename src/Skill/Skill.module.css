@@ -1,25 +1,57 @@
-.title {
-    color: var(--color-primary);
+.wrapper_02 {
+    margin: 1rem auto;
+    width: 380px;
+  }
+  .card_radius_02{
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.2);
+  }
+  
+  .card_02 {
+    background-color: #fff;
+    box-shadow: 0 0 0px rgba(0, 0, 0, .16);
+    color: #212111;
+    text-decoration: none;
+  }
+  
+  .card__header_02 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card__title_02 {
+    padding: 1rem 1.5rem 0;
+    font-size: 1.6rem;
+    order: 1;
     font-weight: bold;
-    font-size: 30px; 
-    text-align: center;
-    margin-top: 30px;
-}
-
-.glass {
-    width: 50%;
-    height: 400px;
-    background: var(--color-white);
-    opacity: 0.3;
-    border-radius: 15%;
-    border: 5px solid var(--color-primary);
-    backdrop-filter: blur(40px);
-    margin: 0 auto;
-    
-}
-
-.img {
-    width:50px;
-    border-radius: 10%;
-}
-
+    text-decoration: none;
+    /*線の種類（実線） 太さ 色*/
+    border-bottom: solid 3px black;
+  
+  }
+  
+  .card__thumbnail_02 {
+    margin: 0;
+    order: 0;
+  }
+  
+  .card__image_02 {
+    width: 100%;
+  }
+  
+  .card__body_02 {
+    padding: 0 1.5rem;
+  }
+  
+  .card__text_02 {
+    font-size: .8rem;
+    text-align:center;
+    text-decoration: none;
+  }
+  
+  .card__text2_02 {
+    font-size: .8rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
