@@ -17,12 +17,12 @@ const NavBar: React.FC<NavBarProps> = (props) => {
 
   const statesNavBar = (open: boolean) => {
     if (open) {
-      return <div className="bg-gray-300 border transition duration-150 ease-out">
+      return <div className="md: hidden bg-gray-300 border transition duration-150 ease-out">
           <ul className="text-white text-center pt-10 pb-5">
-            <li className="before:first-line:"><Scroll to="AboutMe" smooth={true}>About me</Scroll></li>
-            <li><Scroll to="Skill" smooth={true}>Skill</Scroll></li>
-            <li><Scroll to="Portfolio" smooth={true}>Portfolio</Scroll></li>
-            <li><Scroll to="Contact" smooth={true}>Contact</Scroll></li>
+            <li className="cursor-pointer before:first-line:"><Scroll to="AboutMe" smooth={true}>About me</Scroll></li>
+            <li className="cursor-pointer"><Scroll to="Skill" smooth={true}>Skill</Scroll></li>
+            <li className="cursor-pointer"><Scroll to="Portfolio" smooth={true}>Portfolio</Scroll></li>
+            <li className="cursor-pointer"><Scroll to="Contact" smooth={true}>Contact</Scroll></li>
           </ul>
         </div>
     }
